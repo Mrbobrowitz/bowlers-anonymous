@@ -18,10 +18,10 @@ export class AppComponent implements OnInit{
         this.columns = 2;
         break;
       case (window.innerWidth > 640 && window.innerWidth <= 992):
-        this.columns = 3;
+        this.columns = 2;
         break;
       default:
-        this.columns = 5;
+        this.columns = 2;
     }
   }
 

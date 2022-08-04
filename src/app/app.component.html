@@ -1,14 +1,11 @@
-<p>
-  <mat-toolbar color="primary" class="header-container">
-    <span class="header-title">Bowlers Anonymous</span>
-    <span class="bowling-ball-container"><img id="bowling-ball-header" src="assets/bowling-ball.png" alt="Bowling Ball"></span>
-    <button class="menu-container" mat-icon-button>
-      <mat-icon>menu</mat-icon>
-    </button>
-  </mat-toolbar>
-  <mat-grid-list [cols]="columns" rowHeight="2:1" (window:resize)="onResize($event)">
-    <mat-grid-tile>
-      <app-leaderboard></app-leaderboard>
-    </mat-grid-tile>
-  </mat-grid-list>
-</p>
+<mat-toolbar color="primary" class="header-container">
+  <span class="header-title">Bowlers Anonymous</span>
+  <span class="bowling-ball-container"><img id="bowling-ball-header" src="assets/bowling-ball.png"
+                                            alt="Bowling Ball"></span>
+  <button class="menu-container" mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+<div class="main-container">
+  <app-leaderboard class="padding-around leaderboard"></app-leaderboard>
+</div>

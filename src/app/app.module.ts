@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {SharedModule} from "./shared/shared/shared.module";
 import { LeaderboardComponent } from './components/leaderboard/leaderboard.component';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LeaderboardComponent
+    LeaderboardComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
