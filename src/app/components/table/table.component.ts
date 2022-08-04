@@ -11,6 +11,11 @@ const ELEMENT_DATA: LeaderboardElement[] = [
   {position: 2, name: 'CBreezy', score: 169},
   {position: 3, name: 'Matty Ice', score: 143},
   {position: 4, name: 'Freckles', score: 117},
+  {position: 5, name: 'A', score: 0},
+  {position: 6, name: 'B', score: 0},
+  {position: 7, name: 'C', score: 0},
+  {position: 8, name: 'D', score: 0},
+  {position: 9, name: 'E', score: 0},
 ];
 
 @Component({
