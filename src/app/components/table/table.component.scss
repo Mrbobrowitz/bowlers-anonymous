@@ -8,6 +8,10 @@ table {
   overflow: auto;
 }
 
+.table-container::-webkit-scrollbar {
+  display: none;
+}
+
 .mat-column-position {
   text-align: center;
 }
