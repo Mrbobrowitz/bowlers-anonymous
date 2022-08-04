@@ -31,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -99,9 +100,18 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/bowlers-anonymous",
+            "netlifyToken": "HAbYjZEte_xnE_Mdqi7rrUkPF3GbkmfBJKP2DZqzZzo",
+            "siteId": "aa9cd94c-d7a7-4ce3-b872-f4dcfc791334"
           }
         }
       }
