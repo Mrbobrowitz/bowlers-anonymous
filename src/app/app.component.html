@@ -6,7 +6,7 @@
       <mat-icon>menu</mat-icon>
     </button>
   </mat-toolbar>
-  <mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-list [cols]="columns" rowHeight="2:1" (window:resize)="onResize($event)">
     <mat-grid-tile>
       <app-leaderboard></app-leaderboard>
     </mat-grid-tile>
